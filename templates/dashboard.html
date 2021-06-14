@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>User Information</title>
+</head>
+<body>
+    <div class="logged-in-box auth0-box logged-in">
+        <img class="avatar" src="{{userinfo['picture']}}" />
+        <h2>Welcome {{userinfo['name']}}</h2>
+        <pre>{{userinfo}}</pre>
+        <a href="/logout">Logout</a>
+    </div>
+</body>
+</html>
